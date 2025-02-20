@@ -1,0 +1,74 @@
+body {
+    margin:0;
+    font-family: monospace;
+}
+
+.container {
+    background-color: rgb(50, 50, 50);
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login {
+    background-color: #ffffff;
+    height: 320px;
+    width: 320px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px; 
+}
+
+img {
+    height: 128px;
+    width: 128px;
+}
+
+input {
+    margin-bottom: 12px;
+    height: 32px;
+    width: 256px;
+
+    box-sizing: border-box;
+    padding-left: 12px;
+
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+button {
+    height: 32px;
+    width: 256px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+
+button:hover {
+cursor: pointer;
+background-color: rgb(60, 60, 60);
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    padding-top: 12px;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: rgba(231, 169, 54, 0.514);
+}
